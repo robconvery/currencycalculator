@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+#message-a {
+    color: $grey;
+}
+
+#message-b {
+    text-decoration: none;
+    font-size: 1.9em;
+    font-weight: bold;
+    display: inline-block;
+    transform: scale(1, 1.2);
+    -webkit-transform: scale(1, 1.2); /* Safari and Chrome */
+    -moz-transform: scale(1, 1.2); /* Firefox */
+    -ms-transform: scale(1, 1.2); /* IE 9+ */
+    -o-transform: scale(1, 1.2); /* Opera */
+}
